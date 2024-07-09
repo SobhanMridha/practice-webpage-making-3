@@ -415,3 +415,60 @@
   display: flex;
   justify-content: center;
 }
+
+/* footer section */
+
+.footer-section {
+  margin: 0 auto;
+  width: 1600px;
+  height: 609px;
+  color: #ffffff;
+  /* border: 2px solid red; */
+  background-color: #070211;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 120px 140px;
+}
+
+.theme {
+  font-size: 24px;
+  font-weight: 500px;
+  font-family: Inter;
+}
+
+.contract p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-middle {
+  text-align: center;
+}
+
+.footer-middle-bar {
+  margin: 48px 0;
+}
+
+.footer-middle a {
+  margin-right: 24px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0 90px;
+  padding: 50px;
+}
+
+hr {
+  margin-left: 140px;
+  width: 1320px;
+  height: 0px;
+  color: #FFFFFF26;
+}
