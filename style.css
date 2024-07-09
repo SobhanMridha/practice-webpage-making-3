@@ -85,7 +85,8 @@
   height: 600px;
   /* border: 2px solid red; */
   margin-bottom: 120px;
-  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(resources/Vectorrr.png);
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(resources/Vectorrr.png);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -117,4 +118,47 @@
   font-weight: 700;
   border: none;
   background-color: transparent;
+}
+
+/* party details section */
+
+.details {
+  margin: 0 auto;
+  width: 1320px;
+  height: 482px;
+  /* border: 2px solid red; */
+  margin-bottom: 120px;
+  background-color: #ff00001a;
+  border-radius: 16px;
+}
+
+.details-contrainer {
+  padding: 100px 385px;
+  text-align: center;
+}
+
+.details-contrainer span {
+  color: #f00;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.details-contrainer p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.details-btn {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Inter;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  border: none;
 }
