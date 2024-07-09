@@ -272,7 +272,6 @@
   width: 1320px;
   height: 662px;
   /* border: 2px solid red; */
- 
 }
 
 .discount-part {
@@ -293,7 +292,7 @@
 
 .girl {
   position: absolute;
-  left: 892px;
+  left: 891px;
 }
 
 .dis {
@@ -301,3 +300,49 @@
   top: 65px;
   left: 750px;
 }
+
+/* best gif section */
+
+.best-gift-des {
+  margin: 0 290px;
+}
+
+.best-gift-des h5 {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  margin-bottom: 16px;
+}
+
+.best-gift-des h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  font-family: Merriweather;
+  margin-bottom: 22px;
+}
+
+.best-gift-des p {
+  width: 896px;
+  color: #070211;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Inter;
+  margin-bottom: 48px;
+}
+
+/* best gift img */
+
+.best-gift-img {
+  width: 1320px;
+  height: 924px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  /* border: 2px solid red; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+
