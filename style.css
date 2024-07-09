@@ -11,6 +11,7 @@
 
 .banner-section {
   margin-top: 50px;
+  margin-bottom: 120px;
 }
 
 .banner-contrainer {
@@ -43,4 +44,35 @@
   font-size: 72px;
   font-weight: 900;
   font-family: Merriweather;
+}
+
+/* offer-section */
+
+.offer-section-contrainer {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.offer-section-contrainer h1 {
+  color: #ff0000;
+  font-size: 88px;
+  font-weight: 700;
+  font-family: Inter;
+  margin-bottom: 48px;
+}
+
+.offer-section-contrainer p {
+  color: #ff0000;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  margin-bottom: 16px;
+}
+
+.offer-section-contrainer h2 {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: Inter;
+  margin-bottom: 48px;
 }
