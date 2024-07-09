@@ -128,7 +128,7 @@
   height: 482px;
   /* border: 2px solid red; */
   margin-bottom: 120px;
-  background-color: #ff00001a;
+  background-image: linear-gradient(#ff00001a, white);
   border-radius: 16px;
 }
 
@@ -223,7 +223,81 @@
 
 .offer-pic img {
   padding: 35px;
-  border: 15px solid #F00;
+  border: 15px solid #f00;
   border-radius: 5500px;
   display: flex;
+}
+
+/* holiday section */
+
+.holiday-section-des {
+  text-align: center;
+}
+
+.holiday-section-des h4 {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: Inter;
+  margin-bottom: 16px;
+}
+
+.holiday-section-des h1 {
+  color: #070211;
+  font-size: 72px;
+  font-weight: 900;
+  font-family: Merriweather;
+  margin-bottom: 28px;
+}
+
+.holiday-section-des p {
+  margin: 0 auto;
+  width: 1068px;
+  color: #07021199;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: Inter;
+  margin-bottom: 64px;
+}
+
+.holiday-section-des span {
+  color: #f00;
+}
+
+/* discount part */
+
+.discount-part {
+  margin: 0 auto;
+  margin-bottom: 120px;
+  width: 1320px;
+  height: 662px;
+  /* border: 2px solid red; */
+ 
+}
+
+.discount-part {
+  position: relative;
+}
+
+.red-img {
+  position: absolute;
+  top: 433px;
+}
+
+.gift-box {
+  position: absolute;
+  left: 100px;
+  top: 75px;
+  z-index: 1;
+}
+
+.girl {
+  position: absolute;
+  left: 892px;
+}
+
+.dis {
+  position: relative;
+  top: 65px;
+  left: 750px;
 }
