@@ -120,6 +120,11 @@
   background-color: transparent;
 }
 
+.party-section-des button:hover {
+  cursor: pointer;
+  color: bisque;
+}
+
 /* party details section */
 
 .details {
@@ -357,7 +362,7 @@
 
 .item:hover {
   box-shadow: 1px 8px 20px grey;
-  -webkit-transition: box-shadow 0.6s ease-in;
+  transition: box-shadow 0.6s ease-in;
 }
 
 /* newsletter section */
