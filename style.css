@@ -163,6 +163,12 @@
   border: none;
 }
 
+.details button:hover {
+  color: #070211;
+  border: 2px solid black;
+  background-color: whitesmoke;
+}
+
 /* best offer section */
 
 .best-offer {
@@ -343,6 +349,15 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+}
+
+.item {
+  border-radius: 16px;
+}
+
+.item:hover {
+  box-shadow: 1px 8px 20px grey;
+  -webkit-transition:  box-shadow .6s ease-in;
 }
 
 /* newsletter section */
