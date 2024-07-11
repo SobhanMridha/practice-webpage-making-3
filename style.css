@@ -357,7 +357,7 @@
 
 .item:hover {
   box-shadow: 1px 8px 20px grey;
-  -webkit-transition:  box-shadow .6s ease-in;
+  -webkit-transition: box-shadow 0.6s ease-in;
 }
 
 /* newsletter section */
@@ -485,5 +485,5 @@ hr {
   margin-left: 140px;
   width: 1320px;
   height: 0px;
-  color: #FFFFFF26;
+  color: #ffffff26;
 }
